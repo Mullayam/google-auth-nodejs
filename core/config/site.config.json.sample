@@ -1,0 +1,31 @@
+{
+  "APP_ENV": "development",
+  "API_KEY": "e958d7ab120d3c2694150c39347105df",
+  "APP_SECRET_PHRASE": "enjoys.secret",
+
+  "ALLOWED_DOMAINS": ["https://apiv1.example.com"],
+  "ACTIVE_SITE_URL": "http://localhost:8000",
+
+  "JWT_SECRET_TOKEN": "randome_token",
+
+  "SERVER_PORT": "",
+  "DB_URL": "",
+
+  "MAIL_SERVER": "nodemailer",
+  "MAIL_HOST": "smtp.zoho.in",
+  "MAIL_USER": "su@enjoys.in",
+  "MAIL_PASS": "Mullayam@123",
+
+  "SENDGRID_API_KEY": "",
+  "MAIL_API_SECRET": "",
+  "MAIL_FROM": "",
+
+  "FASTSMS_API_KEY": "",
+  "FACTOR2API_KEY": "",
+  "SMS_TYPE": "OTP",
+  "APP_LOGS": true,
+
+  "GOOGLE_CLIENT_ID": "XXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com",
+  "GOOGLE_CLIENT_SECRET": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "GOOGLE_CALLBACK": "http://localhost:[your_port|| customPortIs:8000]/api/v1/oauth/google/callback"
+}
